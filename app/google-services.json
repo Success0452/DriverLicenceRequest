@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "257829390770",
+    "firebase_url": "https://dlre-8ccb6-default-rtdb.firebaseio.com",
+    "project_id": "dlre-8ccb6",
+    "storage_bucket": "dlre-8ccb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257829390770:android:9d766bb2e26fa7ea923cab",
+        "android_client_info": {
+          "package_name": "com.famous.driverlicenceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257829390770-7g0mg9khhremvidm54bo28jh3etk601k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.famous.driverlicenceapp",
+            "certificate_hash": "a22955d1963cd5786b01356fd464901945f40342"
+          }
+        },
+        {
+          "client_id": "257829390770-okke8mgb8lg20n4muji33qjukqbmhn12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN1CuRtwwugq_js7IldDmGZ5zNQEmG3nI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257829390770-okke8mgb8lg20n4muji33qjukqbmhn12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
