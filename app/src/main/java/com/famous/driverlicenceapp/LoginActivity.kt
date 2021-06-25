@@ -46,12 +46,12 @@ class LoginActivity : AppCompatActivity() {
         checkUser()
 
         //handle click, open sign up
-        binding.loginBtn.setOnClickListener{
+        binding.signB.setOnClickListener{
             startActivity(Intent(this, SignUpActivity::class.java))
         }
 
         //handle click, begin login
-        binding.signB.setOnClickListener{
+        binding.loginBtn.setOnClickListener{
             //before login, validate data
             validateData()
         }
