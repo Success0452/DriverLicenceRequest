@@ -20,7 +20,7 @@ class RegisterActivity : AppCompatActivity() {
 
         binding.processBtn.setOnClickListener {
 
-            if (input1.toInt() > 18 && input2.toInt() > 11){
+            if (input1.toInt() > 18 && input2.length > 11){
                 startActivity(Intent(this, RegisterActivity::class.java))
             }else
             {

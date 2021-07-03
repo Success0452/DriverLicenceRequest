@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/uploadPic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -27,12 +27,12 @@
         android:textSize="30sp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+        app:layout_constraintStart_toEndOf="@+id/uploadPic"
+        app:layout_constraintTop_toTopOf="@+id/uploadPic" />
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/fullnameEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -44,10 +44,10 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/uploadPic" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/addressEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -56,12 +56,12 @@
         android:inputType="textPersonName"
         android:hint="Address"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintEnd_toEndOf="@+id/fullnameEdit"
+        app:layout_constraintStart_toStartOf="@+id/fullnameEdit"
+        app:layout_constraintTop_toBottomOf="@+id/fullnameEdit" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/cityEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -70,12 +70,12 @@
         android:inputType="textPersonName"
         android:hint="City"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintEnd_toEndOf="@+id/addressEdit"
+        app:layout_constraintStart_toStartOf="@+id/addressEdit"
+        app:layout_constraintTop_toBottomOf="@+id/addressEdit" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/phoneEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -84,24 +84,24 @@
         android:inputType="number"
         android:hint="Phone Number"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintEnd_toEndOf="@+id/cityEdit"
+        app:layout_constraintStart_toStartOf="@+id/cityEdit"
+        app:layout_constraintTop_toBottomOf="@+id/cityEdit" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/stateEdit"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="State"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName4"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintEnd_toEndOf="@+id/phoneEdit"
+        app:layout_constraintStart_toStartOf="@+id/phoneEdit"
+        app:layout_constraintTop_toBottomOf="@+id/phoneEdit" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/dateEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -110,31 +110,31 @@
         android:inputType="number"
         android:hint="DD/MM/YYYY"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName5"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+        app:layout_constraintEnd_toEndOf="@+id/stateEdit"
+        app:layout_constraintStart_toStartOf="@+id/stateEdit"
+        app:layout_constraintTop_toBottomOf="@+id/stateEdit" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/heightBtn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
         android:hint="Height"
         android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+        app:layout_constraintStart_toStartOf="@+id/dateEdit"
+        app:layout_constraintTop_toBottomOf="@+id/dateEdit" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/mfEdit"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Male/Female"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+        app:layout_constraintEnd_toEndOf="@+id/dateEdit"
+        app:layout_constraintTop_toBottomOf="@+id/dateEdit" />
 
     <TextView
         android:id="@+id/textView3"
@@ -147,10 +147,10 @@
         android:text="Note: All other necessary information will be extracted \n from your provided driving school"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+        app:layout_constraintTop_toBottomOf="@+id/heightBtn" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/applyBtn"
         android:layout_width="140dp"
         android:layout_height="100dp"
         android:text="Apply"
