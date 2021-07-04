@@ -20,12 +20,8 @@ class RegisterActivity : AppCompatActivity() {
 
         binding.processBtn.setOnClickListener {
 
-            if (input1.toInt() > 18 && input2.length > 11){
-                startActivity(Intent(this, RegisterActivity::class.java))
-            }else
-            {
-                Toast.makeText(this, "You are not Qualified to apply, Check our about page!!", Toast.LENGTH_LONG).show()
-            }
+                startActivity(Intent(this, ProcessActivity::class.java))
+
         }
 
     }
