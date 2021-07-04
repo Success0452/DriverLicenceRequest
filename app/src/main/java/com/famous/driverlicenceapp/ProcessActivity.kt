@@ -38,6 +38,7 @@ class ProcessActivity : AppCompatActivity() {
             database.child(fullname).setValue(Save(fullname,address,city,phoneNumber,state,date, height, maleFemale))
 
             startActivity(Intent(this, DoneActivity::class.java))
+            finish()
         }
     }
 }
