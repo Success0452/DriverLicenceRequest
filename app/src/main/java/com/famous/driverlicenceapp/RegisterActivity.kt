@@ -20,7 +20,13 @@ class RegisterActivity : AppCompatActivity() {
 
         binding.processBtn.setOnClickListener {
 
+            if(input1.toInt() > 18){
                 startActivity(Intent(this, ProcessActivity::class.java))
+            finish()
+            }else
+            {
+               Toast.makeText(this, "You are not Eligible", Toast.LENGTH_LONG).show()
+            }
 
         }
 

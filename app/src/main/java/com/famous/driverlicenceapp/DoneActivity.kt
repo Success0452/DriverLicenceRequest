@@ -18,5 +18,10 @@ class DoneActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity::class.java))
             finish()
         }
+
+        binding.chckFormBtn.setOnClickListener {
+            startActivity(Intent(this, CheckActivity::class.java))
+        }
+
     }
 }
